@@ -1,0 +1,20 @@
+{
+  "name": "healthstats2018",
+  "version": "1.0.0",
+  "description": "A collection of health and fitness related data collected over the course of 2018, sources including Garmin Vivosmart HR and a spreadsheet to keep track of measurements over the year.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "health",
+    "statistics"
+  ],
+  "author": "Sydney Twigg",
+  "license": "ISC",
+  "dependencies": {
+    "calendar-heatmap-graph": "0.0.14",
+    "csvtojson": "^2.0.8",
+    "npm": "^6.5.0"
+  }
+}
