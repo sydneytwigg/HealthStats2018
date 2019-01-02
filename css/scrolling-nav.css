@@ -22,7 +22,7 @@ h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 1.2;
   color: inherit;
 }
@@ -33,6 +33,7 @@ h1{
 
 body{
   font-family: 'Roboto', sans-serif;
+  font-weight: 400;
   background-color: #212121;
 }
 
@@ -93,8 +94,19 @@ body{
 }
 
 .jumbotron {
-  padding: 2rem 1rem;
+  padding: 1rem 1rem;
   margin-bottom: 2rem;
   background-color: #424242;
   border-radius: 0.3rem;
+  color: #ffffff;
+}
+
+.container-side{
+    display: flex;
+}
+
+.jumbotron-side{
+  margin-top: 2rem;
+  padding: 1rem;
+  padding-left: 1rem 1rem 1rem 1rem;
 }
