@@ -13,3 +13,16 @@ var data = google.visualization.arrayToDataTable([
   ['November',	6.86],
   ['December',	5.00]
 ]);
+
+
+var data = google.visualization.arrayToDataTable([
+  ['Measurement', 'Start', 'Current'],
+  ['Neck' ,  39.40,    36.40],
+  ['Chest',   115.60,   	98.60],
+  ['Arms' ,  37.00,    33.00],
+  ['Waist',	 102.30,    84.90],
+  ['Navel',   107.00,    92.20],
+  ['Stomach',	 116.20,    98.60],
+  ['Hips' ,  113.80,    100.40],
+  ['Thigh',   68.30,    58.80]
+]);
